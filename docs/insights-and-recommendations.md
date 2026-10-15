@@ -44,23 +44,23 @@ Abnormal result record the highest distribution rate by 18,.
 
 ## 4. Recommendations
 
-**4.1 Cut length of stay**
+### 4.1 Cut length of stay
 
  Analyze drivers by condition and hospital.
 
-**4.2 Reduce emergencies**
+### 4.2 Reduce emergencies
 
  Expand preventive and outpatient care.
 
-**4.3 Plan for peaks**
+### 4.3 Plan for peaks
 
  Staff up for August and schedule electives in low months.
 
-**4.4 Track billing quality**
+### 4.4 Track billing quality
 
 Add denial rate and billing per day of stay.
 
-**4.5 Audit negatives&#x20;**
+### 4.5 Audit negatives&#x20;
 
 Classify refunds versus errors and add validation.
 
