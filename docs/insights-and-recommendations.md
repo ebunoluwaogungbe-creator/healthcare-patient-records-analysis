@@ -94,5 +94,3 @@ Validate KPI definitions, date ranges, and calculation logic before using the re
 ## 5. Conclusion
 
 The analysis uses Power BI to present healthcare data in an interactive format, bringing together patient demographics, admissions, diagnostic test results, billing, insurance comparisons, and length of stay.
-
-The dashboard highlights patterns that can support further investigation and demonstrates the use of data visualization to communicate healthcare data insights.
