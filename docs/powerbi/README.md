@@ -1,59 +1,105 @@
-# Power BI Dashboard — Healthcare Patient Records
+# Healthcare Patient Records Analysis — Power BI Dashboard
 
-## 1. Overview
+## 1. Project Overview
 
-The dashboard explores healthcare records to identify patterns in patient demographics, medical conditions, admissions, billing, insurance providers, test results, and length of stay.
+This project uses Microsoft Power BI to analyze healthcare patient records and explore patient demographics, clinical indicators, hospital admissions, billing performance, insurance providers, and length of hospital stay.
 
-## 2. Tools and Technologies
+The dashboard is organized into two pages: Patient & Clinical Overview and Operations & Financial Performance.
 
-- Microsoft Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
+## 2. Project Objectives
 
-## 3. Dashboard Objectives
+- Analyze patient demographics and age-group distribution.
+- Examine monthly admission trends and admission types.
+- Identify frequently recorded medical conditions.
+- Explore diagnostic test-result distributions.
+- Monitor healthcare billing and insurance-provider performance.
+- Compare average billing across medical conditions.
+- Analyze length of stay by admission type.
+- Identify hospitals with the highest total billing.
 
-- Explore patient demographics and age-group distribution.
-- Compare the frequency of medical conditions.
-- Analyze hospital admission types and monthly trends.
-- Examine billing amounts and insurance-provider patterns.
-- Review test-result distributions.
-- Calculate and analyze length of hospital stay.
+## 3. Tools Used
 
-## 4. Key Performance Indicators
+- Microsoft Power BI
+- Power Query for data preparation, where applicable
+- DAX for measures and calculations, where applicable
 
-The dashboard includes relevant measures such as:
+## 4. Dashboard Pages
 
-- Total patients
-- Average patient age
-- Total billing amount
-- Average length of stay
-- Total insurance provider
+### Page 1: Patient & Clinical Overview
 
-## 5. Dashboard Visualizations
+This page presents the main patient and clinical indicators.
 
-- Patient demographic distribution
-- Medical conditions by record count
-- Admission type comparison
-- Monthly admission trends
-- Billing by insurance provider
-- Test-result distribution
-- Length-of-stay analysis
+**Key Performance Indicators**
+- Total Patients/Records
+- Average Age
+- Average Length of Stay
+- Emergency Admission Rate
+- Total Doctors
 
-## 6. Project Files
+**Visualizations**
+- Monthly Admission Trend
+- Patient Distribution by Age Bins
+- Patient Gender Distribution
+- Patient Volume by Medical Condition
+- Diagnostic Test Results
+- Admission by Type
 
-- `Healthcare Patient Records Analysis.pbix` — Power BI report file, if included in this repository.
-- `../images/` — Dashboard screenshots, if available.
+**Purpose**
+
+This page provides an overview of patient demographics, admission patterns, recorded medical conditions, and diagnostic test results.
+
+### Page 2: Operations & Financial Performance
+
+This page focuses on billing, insurance, hospital comparisons, and length of stay.
+
+**Key Performance Indicators**
+- Total Billing
+- Average Billing
+- Emergency Admission Rate
+- Negative Billing Rate
+- Total Insurance Providers
+
+**Visualizations**
+- Billing by Insurance
+- Average Billing by Condition
+- Length of Stay by Admission
+- Top Hospital by Billing
+
+**Purpose**
+
+This page helps users explore billing patterns, compare insurance-provider totals, examine average billing by medical condition, and review hospital billing performance.
+
+## 5. Interactive Features
+
+The dashboard includes filters for:
+- Admission Date
+- Medical Condition
+- Insurance Provider
+- Test Results
+
+These filters allow users to explore different subsets of the available records.
+
+## 6. Key Observations
+
+- The dashboard displays approximately 54.97K patient records.
+- Arthritis is among the medical conditions displayed, with approximately 9.22K records.
+- The average length of stay displayed is approximately 15.5 days.
+- Emergency admissions account for approximately 32.9% according to the displayed KPI.
+- The dashboard compares billing totals across five insurance providers.
+- The operations page highlights the hospitals with the highest total billing in the displayed data.
+
+These observations describe the dashboard's displayed values and should be checked against the underlying measures before being used for formal reporting.
 
 ## 7. How to View the Dashboard
 
-1. Download the Power BI report file if it is available.
-2. Open the file using Power BI Desktop.
-3. Interact with the report's charts, filters, and slicers.
+The dashboard was developed in Microsoft Power BI.
 
-If a published dashboard link is available, include it here:
+To explore the report, open the `.pbix` file in Power BI Desktop if it is included in this repository.
 
-**Live Dashboard:** [Insert your dashboard link]
+**Dashboard screenshots:** See the `images` folder.
+
+**Published dashboard:** Add a shareable Power BI link here if one is available.
 
 ## 8. Conclusion
 
-The Power BI dashboard provides an interactive way to explore healthcare patient records and communicate findings through visual analysis.
+This dashboard demonstrates how Power BI can be used to summarize healthcare records, explore clinical and operational patterns, and communicate findings through interactive visualizations.
