@@ -2,78 +2,97 @@
 
 ## 1. Project Overview
 
-This project analyzes healthcare patient records using Power BI to explore patient demographics, medical conditions, hospital admissions, billing, insurance providers, and length of hospital stay.
+This project analyzes healthcare patient records using Microsoft Power BI to explore patient demographics, medical conditions, hospital admissions, diagnostic test results, billing, insurance providers, and length of hospital stay.
 
-## 2. Key Performance Indicators (KPIs)
+## 2. Key Findings
 
-The dashboard examines the following metrics:
+### 2.1 Patient Demographics
 
-- **Total Patients/Records:** Number of patient records included in the analysis.
-- **Average Patient Age:** Average age of the patients.
-- **Total Billing Amount:** Sum of the billing amounts.
-- **Average Length of Stay:** Average number of days patients stayed in the hospital.
-- **Total Admissions:** Number of admission records analyzed.
+The dashboard displays approximately 54.97K patient records. The gender distribution is nearly equal, with approximately 27.50K records for each gender.
 
+### 2.2 Medical Conditions
 
+Arthritis and Diabetes each display approximately 9.22K records, followed by Hypertension and Obesity at approximately 9.15K each.
 
-## 3. Key Insights
+These values suggest that the displayed medical-condition categories have relatively similar record counts.
 
-### 3.1 Patient Demographics
+### 2.3 Admission Patterns
 
-The age-group distribution in the dataset ranges from Children to Elders of both Male and Female.
+The monthly admission trend varies throughout the year. Elective admissions are the largest of the three admission types displayed, at approximately 18.5K, followed by Urgent at 18.4K and Emergency at 18.1K.
 
-### 3.2 Medical Conditions
+The dashboard reports an emergency admission rate of 32.9%. The definition of this measure should be confirmed against the underlying calculation.
 
-Arthritis record the highest medical condition by 9,218 patients.
+### 2.4 Length of Stay
 
-### 3.3 Hospital Admissions
+The dashboard reports an average length of stay of approximately 15.5 days.
 
-Elective admission type record the highest admission due to high records of patients in some medical conditions categories like hypertension and cancer.
+The operations page displays averages of approximately 15.6 days for Emergency, 15.5 days for Elective, and 15.4 days for Urgent admissions.
 
-### 3.4 Length of Stay
+These small differences should be interpreted as descriptive patterns rather than evidence of a cause.
 
-Patients stay 15.5 days on average, regardless of admission type..
+### 2.5 Diagnostic Test Results
 
-### 3.5 Billing and Insurance
+The dashboard displays three diagnostic result categories: Abnormal, Normal, and Inconclusive.
 
-Cigna insurance makes the highest billing by $284,334,110.
+The displayed values are approximately 18.44K for Abnormal, 18.33K for Normal, and 18.20K for Inconclusive.
 
-### 3.6 Test Results
+### 2.6 Billing and Insurance
 
-Abnormal result record the highest distribution rate by 18,437.
+The dashboard displays total billing of approximately $1.4 billion and average billing of approximately $25.5K.
 
-## 4. Recommendations
+Cigna has the highest displayed billing total among the five insurance providers, at approximately $284.334 million.
 
-### 4.1 Cut length of stay
+The negative billing rate is displayed as 0.2%. These records should be reviewed to establish whether they represent legitimate adjustments or data quality issues.
 
- Analyze drivers by condition and hospital.
+### 2.7 Billing by Medical Condition
 
-### 4.2 Reduce emergencies
+The average billing displayed across medical conditions ranges from approximately $25.15K to $25.80K.
 
- Expand preventive and outpatient care.
+Further analysis could investigate whether these differences remain meaningful after considering other relevant factors.
 
-### 4.3 Plan for peaks
+### 2.8 Hospital Billing
 
- Staff up for August and schedule electives in low months.
+Johnson PLC has the highest displayed total billing among the hospitals shown, at approximately $1.081 billion.
 
-### 4.4 Track billing quality
+This represents billing recorded in the dataset and should not be interpreted as a measure of hospital quality or profitability.
 
-Add denial rate and billing per day of stay.
+## 3. Recommendations
 
-### 4.5 Audit negatives&#x20;
+### 3.1 Review Admission Trends
 
-Classify refunds versus errors and add validation.
+Examine monthly admission patterns to support discussions about staffing and resource planning.
 
-## 5. Limitations
+### 3.2 Investigate Length-of-Stay Differences
 
-- The analysis is based on the dataset provided by the course instructor.
-- Findings reflect the records available in the dataset and may not represent all healthcare facilities or patients.
-- Observed patterns do not establish cause and effect.
-- Any unusual billing values or data quality concerns should be validated before conclusions are made.
+Explore length of stay by hospital, medical condition, and admission type to identify patterns that may require further investigation.
 
-## 6. Conclusion
+### 3.3 Monitor Billing Quality
 
-This project demonstrates how Power BI can transform healthcare patient records into visual insights that support data exploration and informed decision-making.
+Investigate negative billing records and determine whether they represent refunds, adjustments, or data errors.
 
-The dashboard brings together key metrics and trends to make the dataset easier to understand and explore.
+### 3.4 Review Insurance Billing Patterns
 
+Compare billing totals across insurance providers while considering differences in patient volume and other relevant factors.
+
+### 3.5 Monitor Medical-Condition Patterns
+
+Use the observed distribution of medical conditions to guide further descriptive analysis. The dashboard alone cannot establish disease causes or determine treatment priorities.
+
+### 3.6 Improve Reporting and Validation
+
+Validate KPI definitions, date ranges, and calculation logic before using the results for operational decisions.
+
+## 4. Limitations
+
+- The dataset was provided by the course instructor.
+- The analysis describes the records available in the dataset and may not represent all healthcare facilities.
+- Total billing does not necessarily represent revenue collected or profit.
+- The dashboard does not establish causal relationships.
+- Unusual billing values require validation before conclusions are drawn.
+- Clinical decisions should not be made from these descriptive findings alone.
+
+## 5. Conclusion
+
+The analysis uses Power BI to present healthcare data in an interactive format, bringing together patient demographics, admissions, diagnostic test results, billing, insurance comparisons, and length of stay.
+
+The dashboard highlights patterns that can support further investigation and demonstrates the use of data visualization to communicate healthcare data insights.
