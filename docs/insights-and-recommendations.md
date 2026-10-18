@@ -36,11 +36,11 @@ Patients stay 15.5 days on average, regardless of admission type..
 
 ### 3.5 Billing and Insurance
 
-Insurance and condition totals differ by less than 3%.
+Cigna insurance makes the highest billing by $284,334,110.
 
 ### 3.6 Test Results
 
-Abnormal result record the highest distribution rate by 18,.
+Abnormal result record the highest distribution rate by 18,437.
 
 ## 4. Recommendations
 
