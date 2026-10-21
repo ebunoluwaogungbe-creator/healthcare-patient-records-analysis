@@ -127,5 +127,4 @@ Add screenshots of your final report here.
 **Ebunjah**  
 **Role:** Certified Data Analyst  
 **Portfolio:** https://ebunjah-portfolio.carrd.co/  
-**LinkedIn:** [(https://www.linkedin.com/in/ogungbe-ebunoluwa/]
-
+**LinkedIn:** https://www.linkedin.com/in/ogungbe-ebunoluwa/
