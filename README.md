@@ -167,7 +167,7 @@ Scroll to the Dashboard Preview section of this README to explore screenshots of
 ### Option 2: Open the Power BI Report
 
 1. Navigate to the `powerbi` folder in this repository.
-2. Download the `.pbix` file if it has been uploaded.
+2. Download the `Health Care Dataset.pbix` file if it has been uploaded.
 3. Open the file using Microsoft Power BI Desktop.
 4. Explore the dashboard pages, charts, KPIs, and available filters.
 
