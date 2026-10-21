@@ -4,7 +4,7 @@ This folder contains screenshots of the Healthcare Patient Records Analysis dash
 
 ## 1. Patient & Clinical Overview
 
-**File:** `healthcare-clinical-overview.png`
+**File:** `![Patient and Clinical Overview](healthcare-clinical-overview.png)`
 
 This screenshot presents patient-related KPIs, monthly admission trends, age distribution, gender distribution, medical conditions, diagnostic test results, and admission types.
 
