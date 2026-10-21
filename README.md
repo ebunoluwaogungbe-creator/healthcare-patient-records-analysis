@@ -100,14 +100,21 @@ To examine healthcare billing patterns, insurance-provider totals, hospital bill
 
 **Slicers/Filters:** Admission Date, Medical Condition, Insurance Provider, Test Results.
 
+
 ## Dashboard Preview
-Add screenshots of your final report here.
 
-![Patient and Clinical Overview](images/patient-clinical-overview.png)
+### Page 1: Patient & Clinical Overview
 
-![Operations and Financial Performance](images/operations-financial-performance.png)
+This page provides an overview of patient demographics, medical conditions, admission trends, and diagnostic test results.
 
-> Replace the image paths above with the names and locations of your screenshots.
+![Patient and Clinical Overview](images/healthcare-clinical-overview.png)
+
+### Page 2: Operations & Financial Performance
+
+This page explores healthcare billing, insurance-provider comparisons, average billing by medical condition, length of stay, and hospital billing performance.
+
+![Operations and Financial Performance](images/healthcare-operations-financial.png)
+
 
 ## Key Insights
 
