@@ -86,16 +86,17 @@ Add screenshots of your final report here.
 > Replace the image paths above with the names and locations of your screenshots.
 
 ## Key Insights
-Add only findings you have verified in your final Power BI report:
-1. **[Insight 1]:** [What you found and why it matters.]
-2. **[Insight 2]:** [What you found and why it matters.]
-3. **[Insight 3]:** [What you found and why it matters.]
+
+1. **Medical Conditions:** Arthritis and Diabetes each account for approximately 9.22K records, making them the highest categories displayed in the medical-condition chart.
+2. **Length of Stay:** The average length of stay is approximately 15.5 days, with small differences across Emergency, Elective, and Urgent admissions.
+3. **Billing Performance:** Cigna has the highest displayed billing total among the five insurance providers, at approximately $284.334 million.
 
 ## Recommendations
-Based on the verified findings:
-- [Recommendation 1]
-- [Recommendation 2]
-- [Recommendation 3]
+
+1. **Review admission trends:** Examine monthly admission patterns to support staffing and resource planning.
+2. **Investigate length of stay:** Compare stays by hospital, medical condition, and admission type to identify patterns that may require further review.
+3. **Monitor billing quality:** Investigate negative billing values to determine whether they represent adjustments, refunds, or data errors.
+4. **Review insurance billing:** Compare billing totals alongside patient volumes to better understand differences between insurance providers.
 
 ## Challenges and Learnings
 **Challenges:** [Describe any data-quality or technical challenges you encountered.]
