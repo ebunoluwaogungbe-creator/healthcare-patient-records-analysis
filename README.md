@@ -16,7 +16,7 @@ The dataset was provided by my course instructor for learning and data analysis 
 - Explore billing amounts and insurance-provider patterns.
 - Identify data-quality issues that may affect reporting.
 
-## Tools and Technologies
+## Tools Used
 - Power BI
 - Power Query
 - DAX
