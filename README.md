@@ -28,7 +28,7 @@
 > Privacy note: Only upload the dataset if its license permits redistribution and it contains no confidential or identifiable patient information.
 
 ## Data Cleaning and Preparation
-Describe the steps you actually completed:
+
 - [ ] Checked for duplicate records.
 - [ ] Reviewed missing values.
 - [ ] Converted admission and discharge fields to Date type.
