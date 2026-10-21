@@ -107,7 +107,7 @@ To examine healthcare billing patterns, insurance-provider totals, hospital bill
 
 This page provides an overview of patient demographics, medical conditions, admission trends, and diagnostic test results.
 
-![Patient and Clinical Overview](images/healthcare-clinical-overview.png)
+![Patient and Clinical Overview](healthcare-clinical-overview.png)
 
 ### Page 2: Operations & Financial Performance
 
