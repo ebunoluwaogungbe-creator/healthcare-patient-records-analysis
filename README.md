@@ -15,7 +15,7 @@
 - Power BI
 - Power Query
 - DAX
-- GitHub
+
 ## Dataset
 
 The dataset used in this project contains healthcare patient records and was provided by my course instructor for learning and data analysis practice.
