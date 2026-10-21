@@ -19,9 +19,10 @@ The dashboard is organized into two pages: Patient & Clinical Overview and Opera
 
 ## 3. Tools Used
 
-- Microsoft Power BI
-- Power Query for data preparation, where applicable
-- DAX for measures and calculations, where applicable
+- Power BI
+- Power Query
+- DAX
+
 
 ## 4. Dashboard Pages
 
