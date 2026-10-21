@@ -33,12 +33,20 @@ It contains 55,500 original records and 15 columns covering patient demographics
 
 ## Data Cleaning and Preparation
 
-- [ ] Checked for duplicate records.
-- [ ] Reviewed missing values.
-- [ ] Converted admission and discharge fields to Date type.
-- [ ] Standardized inconsistent text values where appropriate.
-- [ ] Investigated negative or unusual billing values.
-- [ ] Validated data types and key totals after cleaning.
+Data preparation was carried out to improve consistency and prepare the healthcare patient records for analysis in Power BI.
+
+The data quality checks and preparation tasks included:
+
+- **Duplicate Records:** Identified 534 exact duplicate rows for review and removal where appropriate.
+- **Date Formatting:** Reviewed admission and discharge dates and converted them to appropriate date data types where required.
+- **Text Standardization:** Reviewed inconsistent capitalization in patient names.
+- **Billing Validation:** Identified 108 records with negative billing amounts for further investigation.
+- **Missing Values:** Checked the dataset for missing values.
+- **Data Type Validation:** Reviewed column data types to ensure they were suitable for analysis.
+
+Power Query was used for data preparation where applicable. Negative billing values were flagged for investigation rather than automatically treated as errors.
+
+The prepared data was then used to build the Power BI dashboard.
 
 ## Key Performance Indicators (KPIs)
 List the KPIs included in your dashboard and how you calculated them:
