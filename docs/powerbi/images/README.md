@@ -16,4 +16,4 @@ This screenshot presents billing and insurance metrics, average billing by medic
 
 ## Purpose
 
-These screenshots provide a visual preview of the dashboard for readers who want to understand the project without first opening the Power BI report file.
+These screenshots provide a visual preview of the Healthcare Patient Records Analysis dashboard developed in Power BI. They allow viewers, including recruiters and potential employers, to understand the dashboard layout, key performance indicators, and major findings without opening the Power BI report file.
