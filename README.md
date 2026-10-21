@@ -175,8 +175,8 @@ Scroll to the Dashboard Preview section of this README to explore screenshots of
 
 - [Data Cleaning Report](docs/data-cleaning-report.md)
 - [Insights and Recommendations](docs/insights-and-recommendations.md)
-- [Power BI Dashboard Documentation](powerbi/README.md)
-- [Dashboard Screenshots](images/README.md)
+- [Power BI Dashboard Documentation](docs/powerbi/README.md)
+- [Dashboard Screenshots](docs/images/README.md)
 
 
 ## Skills Demonstrated
