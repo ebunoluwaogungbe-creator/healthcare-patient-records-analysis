@@ -1,7 +1,12 @@
 # Healthcare Patient Records Analysis 
 
 ## Project Overview
-[Briefly explain what this project analyzes and why you created it.]
+
+The Healthcare Patient Records Analysis project uses Microsoft Power BI to explore healthcare patient records and identify patterns in patient demographics, medical conditions, hospital admissions, diagnostic test results, billing, insurance providers, and length of hospital stay.
+
+The project transforms healthcare data into an interactive, two-page dashboard that presents key performance indicators (KPIs), trends, and comparisons. It aims to demonstrate how data analytics and visualization can support data exploration and informed operational decision-making.
+
+The dataset was provided by my course instructor for learning and data analysis practice.
 
 ## Project Objectives
 - Analyze patient demographics and age groups.
@@ -129,20 +134,50 @@ This page explores healthcare billing, insurance-provider comparisons, average b
 3. **Monitor billing quality:** Investigate negative billing values to determine whether they represent adjustments, refunds, or data errors.
 4. **Review insurance billing:** Compare billing totals alongside patient volumes to better understand differences between insurance providers.
 
-## Challenges and Learnings
-**Challenges:** [Describe any data-quality or technical challenges you encountered.]
+### Challenges
 
-**What I learned:** [Describe what you learned about Power Query, DAX, data visualization, or communicating insights.]
+- **Data Quality:** Reviewing duplicate records, inconsistent data formats, and unusual billing values before analysis.
+- **Date Handling:** Preparing admission and discharge dates for accurate date-based analysis and length-of-stay calculations.
+- **KPI Development:** Defining and validating measures such as emergency admission rate, average billing, and average length of stay.
+- **Dashboard Design:** Organizing related metrics and visualizations into two dashboard pages to make the report easier to navigate.
+
+### Key Learnings
+
+- Improved my understanding of data preparation and validation using Power Query.
+- Practiced creating interactive dashboard visualizations in Power BI.
+- Learned the importance of validating KPI calculations before interpreting results.
+- Developed my ability to communicate analytical findings through visual storytelling.
+- Gained experience presenting healthcare data in a structured and accessible format.
 
 ## Limitations
-- [Mention limitations of the dataset or analysis.]
-- Observed patterns do not automatically prove cause and effect.
-- Findings should be interpreted within the context of the dataset and its source.
+
+- **Dataset Scope:** The analysis is based on the healthcare patient records provided by my course instructor and may not represent all hospitals or patient populations.
+- **Data Quality:** Duplicate records, unusual billing values, and other data quality issues may affect results if not properly validated.
+- **Descriptive Analysis:** The dashboard identifies patterns and comparisons but does not establish causal relationships.
+- **Billing Interpretation:** Total billing does not necessarily represent payments received, revenue collected, or profit.
+- **Clinical Interpretation:** The dashboard is intended for data analysis and visualization practice; its findings should not be treated as clinical advice.
+- **Data Availability:** The analysis is limited to the fields and information available in the supplied dataset.
 
 ## How to View the Project
-1. [Explain where to find the `.pbix` file, if you share it.]
-2. [Explain any requirements for opening the report.]
-3. [Explain how to view the screenshots or reproduce the analysis.]
+
+### Option 1: View the Dashboard Screenshots
+
+Scroll to the Dashboard Preview section of this README to explore screenshots of both dashboard pages.
+
+### Option 2: Open the Power BI Report
+
+1. Navigate to the `powerbi` folder in this repository.
+2. Download the `.pbix` file if it has been uploaded.
+3. Open the file using Microsoft Power BI Desktop.
+4. Explore the dashboard pages, charts, KPIs, and available filters.
+
+### Project Documentation
+
+- [Data Cleaning Report](docs/data-cleaning-report.md)
+- [Insights and Recommendations](docs/insights-and-recommendations.md)
+- [Power BI Dashboard Documentation](powerbi/README.md)
+- [Dashboard Screenshots](images/README.md)
+
 
 ## Skills Demonstrated
 - Data cleaning and transformation
