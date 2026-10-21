@@ -113,7 +113,7 @@ This page provides an overview of patient demographics, medical conditions, admi
 
 This page explores healthcare billing, insurance-provider comparisons, average billing by medical condition, length of stay, and hospital billing performance.
 
-![Operations and Financial Performance](images/healthcare-operations-financial.png)
+![Operations and Financial Performance](healthcare-operations-financial.png)
 
 
 ## Key Insights
