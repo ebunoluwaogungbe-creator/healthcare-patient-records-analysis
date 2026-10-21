@@ -49,24 +49,32 @@ List the KPIs included in your dashboard and how you calculated them:
 ## Dashboard Pages and Visuals
 
 ### Page 1: Patient & Clinical Overview
-**Purpose:** [Describe the main question this page answers.]
+
+**Purpose:** 
+To explore patient demographics, medical conditions, admission patterns, and diagnostic test results.
 
 **Visuals included:**
-- [Add visual]
-- [Add visual]
-- [Add visual]
+- Monthly Admission Trend
+- Patient Distribution by Age Bins
+- Patient Gender Distribution
+- Patient Volume by Medical Condition
+- Diagnostic Test Results
+- Admission by Type
 
-**Slicers/filters:** [List slicers used]
+**Slicers/Filters:** Admission Date, Medical Condition, Insurance Provider, Test Results.
 
 ### Page 2: Operations & Financial Performance
-**Purpose:** [Describe the main question this page answers.]
+
+**Purpose:** 
+To examine healthcare billing patterns, insurance-provider totals, hospital billing, and length of stay by admission type.
 
 **Visuals included:**
-- [Add visual]
-- [Add visual]
-- [Add visual]
+- Billing by Insurance
+- Average Billing by Condition
+- Length of Stay by Admission
+- Top Hospital by Billing
 
-**Slicers/filters:** [List slicers used]
+**Slicers/Filters:** Admission Date, Medical Condition, Insurance Provider, Test Results.
 
 ## Dashboard Preview
 Add screenshots of your final report here.
