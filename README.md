@@ -49,14 +49,26 @@ Power Query was used for data preparation where applicable. Negative billing val
 The prepared data was then used to build the Power BI dashboard.
 
 ## Key Performance Indicators (KPIs)
-List the KPIs included in your dashboard and how you calculated them:
-- **Total Patient Records:** [Add definition or measure]
-- **Average Age:** [Add definition or measure]
-- **Average Length of Stay:** [Add definition or measure]
-- **Emergency Admission Rate:** [Add definition or measure]
-- **Total Billing Amount:** [Add definition or measure]
-- **Average Billing Amount:** [Add definition or measure]
-- **Negative Billing Rate:** [Add definition or measure, if used]
+
+The dashboard presents key metrics across patient demographics, admissions, and financial performance.
+
+### Patient & Clinical Overview
+
+- **Total Patients:** Approximately 54.97K records displayed in the dashboard.
+- **Average Age:** 51.5 years.
+- **Average Length of Stay:** 15.5 days.
+- **Emergency Admission Rate:** 32.9%.
+- **Total Doctors:** Approximately 40K as displayed in the dashboard.
+
+### Operations & Financial Performance
+
+- **Total Billing:** Approximately $1.4 billion.
+- **Average Billing:** Approximately $25.5K.
+- **Emergency Admission Rate:** 32.9%.
+- **Negative Billing Rate:** 0.2%.
+- **Total Insurance Providers:** 5.
+
+These KPIs provide a summary of the patient records and billing metrics analyzed in the dashboard. Values may change when filters are applied.
 
 ## Dashboard Pages and Visuals
 
