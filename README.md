@@ -123,8 +123,9 @@ Add screenshots of your final report here.
 - Data storytelling
 
 ## Author
+
 **Ebunjah**  
 **Role:** Certified Data Analyst  
-**Portfolio:** [Add your Carrd portfolio URL]  
-**LinkedIn:** [Add your LinkedIn URL]
+**Portfolio:** https://ebunjah-portfolio.carrd.co/  
+**LinkedIn:** [[Paste your LinkedIn profile URL here](https://www.linkedin.com/in/ogungbe-ebunoluwa/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2F%2Fkq0m8CRZ2EDmOehi4%2BgQ%3D%3D)]
 
