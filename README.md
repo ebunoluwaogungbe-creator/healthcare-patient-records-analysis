@@ -16,16 +16,20 @@
 - Power Query
 - DAX
 - GitHub
-
 ## Dataset
-**Source:** [Add dataset source and link]  
-**Rows before cleaning:** [Add number]  
-**Rows after cleaning:** [Add number]  
-**Columns:** [Add number]
 
-**Fields used:** Age, Gender, Medical Condition, Date of Admission, Discharge Date, Insurance Provider, Billing Amount, Admission Type, Test Results, and other relevant fields.
+The dataset used in this project contains healthcare patient records and was provided by my course instructor for learning and data analysis practice.
 
-> Privacy note: Only upload the dataset if its license permits redistribution and it contains no confidential or identifiable patient information.
+It contains 55,500 original records and 15 columns covering patient demographics, medical conditions, admission and discharge dates, hospitals, insurance providers, billing amounts, medications, and diagnostic test results.
+
+### Dataset Information
+
+- **Dataset Name:** Healthcare Patient Records
+- **Dataset Source:** Provided by my course instructor
+- **Original Records:** 55,500
+- **Original Columns:** 15
+- **Data Preparation:** Power Query
+- **Analysis and Visualization:** Microsoft Power BI
 
 ## Data Cleaning and Preparation
 
