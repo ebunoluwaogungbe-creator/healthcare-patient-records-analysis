@@ -95,7 +95,7 @@ These observations describe the dashboard's displayed values and should be check
 
 The dashboard was developed in Microsoft Power BI.
 
-To explore the report, open the `Health Care Dataset.pbix` file in Power BI Desktop if it is included in this repository.
+To explore the report, open the `Health Care Dataset.pbix` file in Power BI Desktop.
 
 **Dashboard screenshots:** See the `images` folder.
 
